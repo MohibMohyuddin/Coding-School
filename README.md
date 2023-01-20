@@ -1,16 +1,8 @@
 # Free Code School
 
-## This is a simple API for:
 
-* creating a unified interface for keeping track of Free Code School students
-* accounts for students to login and see their own pages
-* admins can login and see everyone via the Django admin interface
-* The solution will be able to use Github OAuth
-
-## About the Program
-
-* Free Code School is a non-profit coding program that teaches people coding basics for free.
-* It's set up to offer 3-month long classes in two different levels, 1 and 2. When students pass level 1 - HTML, CSS, and JS, they can move onto level 2 - Node, Express, and Mongo.
+* Platform that teaches people coding basics for free.
+* level 1 - HTML, CSS, and JS, || level 2 - Node, Express, and Mongo.
 
 ## Table of Contents
 
@@ -178,7 +170,7 @@
 
 ### Version 2
 
-* Students will be able to have public profiles with this information:
+* Users can create profiles with the following info:
   * First Name
   * Last Name
   * Preferred Name
