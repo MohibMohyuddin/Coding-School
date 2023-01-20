@@ -5,7 +5,7 @@
 * creating a unified interface for keeping track of Free Code School students
 * accounts for students to login and see their own pages
 * admins can login and see everyone via the Django admin interface
-* it will be able to use Github OAuth
+* The solution will be able to use Github OAuth
 
 ## About the Program
 
@@ -35,25 +35,11 @@
 1. Run the app: `python manage.py runserver`
 1. View the API at `localhost:8000` and the admin interface at `localhost:8000/admin`
 
-## Requirements
-
-* Students and Organizers/Admin accounts login using GitHub OAUTH
-* Private Student Profile: Visible to only the user and organizers/admins
-  * FreeCodeCamp.org progress page url: freecodecamp.org/codecafecentral
-  * Email
-  * Discord Name
-  * Phone
-  * Attendenance (not editable by students)
-  * List of labs:
-    * Link to the lab starter
-    * input field for a link to their completed version
-
 * Admin Dashboard
   * Student Progress/Outcomes
     * Grouped by enrollment period (semester)
       * Show all students in a table to track progress/outcomes
       * Be able to edit any part of the table
-      * Similar to: https://docs.google.com/spreadsheets/d/1M2rAQSHNFqZlhAV0i1fKfVLBpx4CqRMUzowoGWS_KKQ/edit#gid=0
   * Volunteer management
     * Be able to view volunteers listed in a table
   * Waitlist
